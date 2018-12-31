@@ -12,3 +12,20 @@ Here is shown more in detail the entire operative pipeline of the program:
 ![Pipeline](https://github.com/ArtyZiff35/3D_Reconstruction_From_Stereo_Images/blob/master/gitImages/pipeline.jpeg)
 
 ## Samples
+The following is an example result of the calibration and rectification process.
+Before:
+![Before rectification](https://github.com/ArtyZiff35/3D_Reconstruction_From_Stereo_Images/blob/master/gitImages/beforeRect.png)
+After:
+![After rectification](https://github.com/ArtyZiff35/3D_Reconstruction_From_Stereo_Images/blob/master/gitImages/afterRec.png)
+
+Next step is the disparity map generation using our custom algorithm derived from an optimized version of SAD:
+![Disparity heat-map](https://github.com/ArtyZiff35/3D_Reconstruction_From_Stereo_Images/blob/master/gitImages/bikeSmoothHeatmap.png)
+
+Eventually, after some other processing, we end up with a depth map, and its corresponding 3d representation:
+![Original Image](https://github.com/ArtyZiff35/3D_Reconstruction_From_Stereo_Images/blob/master/gitImages/loungimage.png)
+![Ply 1](https://github.com/ArtyZiff35/3D_Reconstruction_From_Stereo_Images/blob/master/gitImages/loung_size1.png)
+![Ply 2](https://github.com/ArtyZiff35/3D_Reconstruction_From_Stereo_Images/blob/master/gitImages/lounge_size2.png)
+
+
+
+
