@@ -4,7 +4,7 @@ This project has been written in Python and its aim is to reconstruct 3d maps of
 
 ## Introduction
 The code is able to perform camera calibration for radial and tangential distortion (by capturing images of a checkerboard or by using a stored set of chessboard images), stereo rectification and image capture.
-Once a pair of stero images has been captured, rectified and pre-processed using a set of filters, a disparity map is calculated using our variant of the SAD (Sum of Absolute Differences) algorithm.
+Once a pair of stero images has been captured, rectified and pre-processed using a set of operations (sharpening filters, histogram equalization, Brightness Control, Gaussian Pyramiding), a disparity map is calculated using our variant of the SAD (Sum of Absolute Differences) algorithm.
 From there, a depth map is retrieved using some triangulations in order to correctly locate in the 3d space each pixel of the map.
 Eventually, a .ply coloured point cloud is generated, which can be interpolated to obtain a uniform 3d model of the environment.
 
