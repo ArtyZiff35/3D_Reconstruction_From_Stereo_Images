@@ -8,4 +8,7 @@ Once a pair of stero images has been captured and rectified, a disparity map is 
 From there, a depth map is retrieved using some triangulations in order to correctly locate in the 3d space each pixel of the map.
 Eventually, a .ply coloured point cloud is generated, which can be interpolated to obtain a uniform 3d model of the environment.
 
+Here is shown more in detail the entire operative pipeline of the program:
+![Pipeline](https://github.com/ArtyZiff35/3D_Reconstruction_From_Stereo_Images/blob/master/gitImages/pipeline.jpeg)
+
 ## Samples
