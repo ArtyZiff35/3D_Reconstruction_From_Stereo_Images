@@ -8,4 +8,24 @@ Once a pair of stero images has been captured and rectified, a disparity map is 
 From there, a depth map is retrieved using some triangulations in order to correctly locate in the 3d space each pixel of the map.
 Eventually, a .ply coloured point cloud is generated, which can be interpolated to obtain a uniform 3d model of the environment.
 
+Here is shown more in detail the entire operative pipeline of the program:
+![Pipeline](https://github.com/ArtyZiff35/3D_Reconstruction_From_Stereo_Images/blob/master/gitImages/pipeline.jpeg)
+
 ## Samples
+The following is an example result of the calibration and rectification process.
+Before:
+![Before rectification](https://github.com/ArtyZiff35/3D_Reconstruction_From_Stereo_Images/blob/master/gitImages/beforeRect.png)
+After:
+![After rectification](https://github.com/ArtyZiff35/3D_Reconstruction_From_Stereo_Images/blob/master/gitImages/afterRec.png)
+
+Next step is the disparity map generation using our custom algorithm derived from an optimized version of SAD:
+![Disparity heat-map](https://github.com/ArtyZiff35/3D_Reconstruction_From_Stereo_Images/blob/master/gitImages/bikeSmoothHeatmap.png)
+
+Eventually, after some other processing, we end up with a depth map, and its corresponding 3d representation:
+![Original Image](https://github.com/ArtyZiff35/3D_Reconstruction_From_Stereo_Images/blob/master/gitImages/loungimage.png)
+![Ply 1](https://github.com/ArtyZiff35/3D_Reconstruction_From_Stereo_Images/blob/master/gitImages/loung_size1.png)
+![Ply 2](https://github.com/ArtyZiff35/3D_Reconstruction_From_Stereo_Images/blob/master/gitImages/lounge_size2.png)
+
+
+
+
