@@ -14,6 +14,7 @@ Here is shown more in detail the entire operative pipeline of the program:
 ## Documentation
 Detailed documentation about the whole pipeline of the program can be found in this Paper (pdf format):
 https://github.com/ArtyZiff35/3D_Reconstruction_From_Stereo_Images/blob/master/documentation/3D_Model_Reconstruction_from_Stereo_2D_Images.pdf
+
 Also, a set of brief presentation slides can be found here:
 https://docs.google.com/presentation/d/1Q8aFab3yFyF7yvGsJnriGsj5vfLVJpKg9J2PLjyWOMM/edit?usp=sharing
 
